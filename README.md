@@ -1,5 +1,5 @@
 # Mindfulness Bell
-A very simple Mindfulness Bell written in Bash scripts for Linux
+A very simple Mindfulness Bell written in Shell scripts for Linux
 
 **The Mindfulness Bell** is a prominent part of the practice in Plum Village, 
 which is a Buddhist monastery and mindfulness practice center founded by 
