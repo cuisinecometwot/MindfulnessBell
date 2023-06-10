@@ -1,7 +1,26 @@
-# MindfulnessBell
-A very simple Mindfulness Bell written in Bash scripts
+# Mindfulness Bell
+A very simple Mindfulness Bell written in Bash scripts for Linux
 
-Start with this command line
+The Mindfulness Bell is a prominent part of the practice in Plum Village, 
+which is a Buddhist monastery and mindfulness practice center founded by 
+Zen Master Thich Nhat Hanh. The Mindfulness Bell is used to remind 
+practitioners to come back to the present moment and be mindful of 
+their breathing and surroundings.
+
+In Plum Village, the Mindfulness Bell is traditionally sounded 
+three times a day, marking the beginning of each practice session. 
+When the bell rings, everyone stops what they are doing and 
+takes a few deep breaths, bringing their attention to the 
+present moment and letting go of any distractions or thoughts 
+that may have arisen.
+
+In addition to its use during formal meditation sessions, 
+the Mindfulness Bell can also be used throughout the day as a tool 
+for mindfulness and presence. For example, you might set an alarm 
+on your computer to ring periodically throughout the day, 
+reminding you to pause and take a few mindful breaths.
+
+Start the script with this command line
 ./script.sh > /dev/null 2>&1 &
 This will start the script script.sh in the background, 
 redirecting both its standard output and error to /dev/null 
