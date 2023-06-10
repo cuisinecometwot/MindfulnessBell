@@ -21,7 +21,9 @@ on your computer to ring periodically throughout the day,
 reminding you to pause and take a few mindful breaths.
 
 **Start the script** with this command line
+
 **./script.sh > /dev/null 2>&1 &**
+
 This will start the script script.sh in the background, 
 redirecting both its standard output and error to /dev/null 
 so that they are not printed to the console. 
@@ -32,16 +34,27 @@ To **stop the script**, you can end process in Task Manager or
 find its process ID (PID) using the ps command and then 
 send a SIGTERM signal to it using the kill command.
 
-**Installation (if required)
-sudo apt install sox**
+**Installation (if required)**
+
+sudo apt install sox
 
 **For executing script.sh after boot**
-First create your startup script @ /path/to/script.sh, 
+
+First locate your script 
+
+@ /path/to/script.sh, 
+
 and make sure it's executable
-chmod +x startup.sh
+
+chmod +x script.sh
+
 Then set a crontab for it by executing this command:
-$ crontab -e
+
+crontab -e
+
 And add the following line in the end 
+
 @reboot  /path/to/script.sh
-Now your script script.sh will run at every start.
+
+Now script.sh will run at every start.
 
