@@ -38,7 +38,7 @@ send a SIGTERM signal to it using the kill command.
 
 sudo apt install sox
 
-**For executing script.sh after boot**
+**For executing script.sh after boot:**
 
 First locate your script 
 
@@ -58,3 +58,12 @@ And add the following line in the end
 
 Now script.sh will run at every start.
 
+**For closing the terminal without stopping the script:**
+
+First, start the script by running the command in the terminal.
+
+Once the script is running, press Ctrl + Z (^Z) to pause the script.
+    
+Next, run the bg command to resume the script in the background.
+    
+Finally, run the disown command to release the script from the terminal session.
